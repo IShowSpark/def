@@ -45,14 +45,59 @@
 #    return p,s,diagonal
 
 
-#def season(m:int):
-#    if m in (12,1,2):
+#def season(month:int):
+#    if month in (12,1,2):
 #        return "Зима"
-#    elif m in (3,4,5):
+#    elif month in (3,4,5):
 #        return "Весна"
-#    elif m in (6,7,8):
+#    elif month in (6,7,8):
 #        return "Лето"
-#    elif m in (9,10,11):
+#    elif month in (9,10,11):
 #        return "Осень"
+
+#def bank(a,years):
+#    for year in range(years):
+#        a*=1.1
+#    return a
+
+
+
+
+#def is_prime(number):
+#    ans=0
+#    if number>0<1000:
+#        for i in range(1,number+1):
+#            if number%i==0: ans+=1
+#        if ans==2:
+#            ans=True
+#        else:
+#            ans=False
+#        return ans
+
+
+#def date(d,m,y):
+#    import datetime
+#    try:
+#        datetime.date(y,m,d)
+#    except ValueError:
+#        return False
+#    else:
+#        return True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
